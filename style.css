@@ -1,0 +1,160 @@
+/* Here goes your CSS */
+body {
+
+  background-color: #FFFAEF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color:  #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+.container {
+  width: 500px;   /* Set width
+  margin: 0 auto; /* Automatically set left/right margins */
+}
+
+.card {
+
+  width: 500px;
+  background: white;
+  padding: 20px;
+  margin-left: 300px;
+  margin-bottom: 20px;
+  border: 1px solid lightgrey;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+
+ }
+
+
+ #image-circle {
+  border-radius: 50%;
+   -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+
+ }
+
+ #image-circle:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+
+h1, h2{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  color: #DD5555;
+  font-size: 22px;
+}
+
+h2{
+  font-size: 18px;
+  font-weight: 300;
+}
+/*
+h3{
+  font-size: 16px;
+  font-weight: 300;
+}
+*/
+
+
+
+td {
+  padding: 15px;
+
+}
+
+#share-buttons {
+  /*background-color: red;*/
+  width: 500px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+  padding-left: 0px;
+
+}
+
+#facebook {
+width: 25px;
+
+}
+
+#github {
+width: 30px;
+
+}
+
+#instagram {
+width: 30px;
+
+}
+
+#movies{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+#movies img{
+  width: 80px;
+  transition: all .2s ease-in-out;
+}
+
+#movies img:hover { transform: scale(1.1); }
+
+#movies h3 {
+  font-weight: bold;
+
+}
+
+
+#favorite-movies img{
+  width: 160px;
+  height: 100px;
+
+}
+
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color:#788188;
+}
+
+#sidebar a:hover {
+  color: white;
+}
+
+#page-content {
+  margin-left: 300px;
+}
